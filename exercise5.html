@@ -1,0 +1,174 @@
+<H1> Lesson 5 Exercises! </H1>
+<p> Text Styles </p>
+<!-- Paragraphs have margin on top and bottom by default -->
+<!-- Add width to force the text to go to next line -->
+<!-- CSS Specificity: Styles have different priority, the selector (words) before the {} that is more specific have higher priority-->
+<!-- Text Elements are elements within lines of text, only modifies the selected part, not the whole thing, they can be classes -->
+<!-- span has no effects, can style however we want -->
+
+<style>
+    p{
+        margin-bottom: 10px;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Tahoma{
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .biggestDeals{
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 3px;
+    }
+    .salesEnd{
+        font-style: italic;
+        color: red;
+    }
+    .courseTitle{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    .subtitle{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: gray;
+        margin-bottom: 16px;
+    }
+    .description{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 300px;
+        margin-bottom: 16px;
+    }
+    .getStarted{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        color: white;
+        background-color: green;
+        border: none;
+        border-radius: 4px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    .shopping{
+        font-weight: bold;
+        text-align: center;
+        font-size: 22px;
+    }
+    .appleAtWork{
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    .learnMore{
+        color:rgb(39, 112, 229);
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 18px;
+    }
+    .new{
+        font-size:12px;
+        color: red;
+        text-align: center;
+    }
+    .macbook{
+        font-weight: bold;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom:6px;
+    }
+    .supercharge{
+        font-weight: bold;
+        text-align: center;
+        font-size: 36px;
+    }
+    .price{
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .buy1{
+        text-align: center;
+    }
+    .buy{
+        color:white;
+        background-color:rgb(39, 112, 229);
+        cursor: pointer;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 30px;
+    }
+    .stockPrice{
+        font-weight: bold;
+        font-size: 26px;
+    }
+    .usd{
+        color: grey;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .green{
+        font-size: 16px;
+        color: green;
+    }
+    .afterHours{
+        color: grey;
+        margin-bottom:20px;
+    }
+    .change{
+        color: red;
+    }
+    .email{
+        color: grey;
+        font-size: 20px;
+    }
+    .name{
+        font-weight: bold;
+        color: black;
+    }
+    .tweet{
+        width: 500px;
+        margin-bottom: 15px;
+    }
+    .username{
+        color: rgb(49, 113, 233);
+        cursor: pointer;
+    }
+</style>
+
+<!-- 5a -->
+<p class = "Tahoma"> This is Tahoma Font </p>
+<!-- 5b -->
+<p class = "biggestDeals"> Biggest Deals of the Year! </p>
+<p class = "salesEnd"> Sales end Tuesday </p>
+<!-- 5c -->
+<p class = "courseTitle"> HTML CSS Course </p>
+<p class = "subtitle"> Beginner to Pro </p>
+<p class = "description"> In this course, we'll learn the skills you need to become a developer. </p>
+<button class = "getStarted"> Get Started </button>
+<!-- 5d -->
+<p class = "shopping"> Shopping for your business? </p>
+<p class = "appleAtWork"> See how Apple at Work can help.</p>
+<p class = "learnMore">Learn more ></p>
+<!-- 5e -->
+<p class = "new"> New </p>
+<p class = "macbook"> MacBook Pro </p>
+<p class = "supercharge"> Supercharged for pros. </p>
+<p class = "price"> From $1999 </p>
+<!-- Use span to edit just the buy text, the background-color will only be for that word, not the whole line -->
+<p class = "buy1"> <span class = "buy"> Buy </span> </p>
+<!-- 5f -->
+<p class = "stockPrice"> 1,049.61 <span class = "usd"> USD </span></p>
+<p class = "green"> +18.05 (1.75%) today </p>
+<p class = "afterHours"> After hours 1,048.00 <span class = "change"> -1.61 (0.15%)</span></p>
+<!-- 5g -->
+<p class = "email"> <span class = "name"> freeCodeCamp.org</span> @freeCodeCamp 1h</p>
+<p class = "tweet"> As a web developer, you'll want to make your projects easy to use and navigate around.</p>
+<p class = "tweet"> Here <span class = "username">@chp_it</span> outlines the top skills new developers should have.</p>
