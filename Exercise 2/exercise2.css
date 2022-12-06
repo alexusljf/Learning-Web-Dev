@@ -1,0 +1,102 @@
+.uber_button {
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.amazon_button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-color: rgb(255, 216, 20);
+    border-style: solid;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.github_button {
+    background-color: rgb(46, 146, 79);
+    color: white;
+    border-color: rgb(46, 146, 79);
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    margin-right: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bootstrap1 {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border-color: rgb(121, 82, 179);
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    margin-right: 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bootstrap2 {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    margin-right: 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.linkedin1 {
+    background-color: rgb(10, 102, 194);
+    color: rgb(255, 255, 255);
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    height: 30px;
+    width: 230px;
+    margin-right: 8px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}    
+.linkedin2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    height: 30px;
+    width: 80px;
+    margin-right: 8px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buy_now {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border-color: rgb(255, 164, 28);
+    border-style: solid;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+}    
+.amazon_link {
+    color : rgb(0,113,133);
+}
+.ShoeName {
+    font-size:x-large;
+    font-weight: bold;
+}
+.price {
+    color : rgb(0, 118, 0);
+}

@@ -1,0 +1,134 @@
+p{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Tahoma{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+}
+.biggestDeals{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+.salesEnd{
+    font-style: italic;
+    color: red;
+}
+.courseTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.subtitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    margin-bottom: 16px;
+}
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    margin-bottom: 16px;
+}
+.getStarted{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.shopping{
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+.appleAtWork{
+    text-align: center;
+    margin-bottom: 18px;
+}
+.learnMore{
+    color:rgb(39, 112, 229);
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+.new{
+    font-size:12px;
+    color: red;
+    text-align: center;
+}
+.macbook{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom:6px;
+}
+.supercharge{
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+.price{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.buy1{
+    text-align: center;
+}
+.buy{
+    color:white;
+    background-color:rgb(39, 112, 229);
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 30px;
+}
+.stockPrice{
+    font-weight: bold;
+    font-size: 26px;
+}
+.usd{
+    color: grey;
+    font-weight: normal;
+    font-size: 16px;
+}
+.green{
+    font-size: 16px;
+    color: green;
+}
+.afterHours{
+    color: grey;
+    margin-bottom:20px;
+}
+.change{
+    color: red;
+}
+.email{
+    color: grey;
+    font-size: 20px;
+}
+.name{
+    font-weight: bold;
+    color: black;
+}
+.tweet{
+    width: 500px;
+    margin-bottom: 15px;
+}
+.username{
+    color: rgb(49, 113, 233);
+    cursor: pointer;
+}
