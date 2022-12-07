@@ -1,0 +1,168 @@
+div,p,button{
+    font-family: Arial;
+}
+button{
+    cursor: pointer;
+}
+.div9a{
+    background-color: red;
+    width:50px;
+    height:50px;
+    display: inline-block;
+}
+.div9b{
+    background-color: green;
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.div9c{
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+.div9d{
+    background-color: rgba(20, 20, 20, 0.877);
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    width: 380px;
+    margin-bottom: 20px;
+}
+.youtubeMusicInstall{
+    color:white;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.youtubeMusicDescript{
+    margin-top: 10px;
+    color: lightgrey;
+    width: 380px;
+}
+.div9e{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(197, 197, 197);
+    width: 410px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.gusFring7g{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+.whatsHappening7g{
+    border:none;
+    padding-left:10px;
+    padding-right:65px;
+    padding-top:12px;
+    padding-bottom:12px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+.tweet7g{
+    background-color: rgb(50, 149, 206);
+    color:white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.div9f{
+    display: inline-block;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 0 10px rgb(197, 197, 197);
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.pic{
+    width:200px;
+    height:250px;
+    object-fit: fill;
+    object-position: center;
+}
+.name9f{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    margin-bottom:6px;
+}
+.mutualFriends9f{
+    color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top:2px;
+    margin-bottom:6px;
+}
+.addFriend{
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-style: none;
+    border-radius: 4px;
+    margin-top:2px;
+    margin-bottom:6px;
+    color: white;
+    background: rgb(18, 97, 243)
+}
+.divLogo{
+    text-align: center;
+    margin-bottom:0px;
+}
+.divSearchBar{
+    margin-top:0px;
+    text-align: center;
+}
+.divButtons{
+    text-align: center;
+}
+.googleLogo8c{
+    width: 200px;
+    display: block;
+    object-fit: contain;
+    display: inline-block;
+}
+.searchBar8c{
+    width: 500px;
+    font-size: 16px;
+    border-radius: 24px;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+.googleButtons{
+    margin-top: 30px;
+    margin-right: 10px;
+    border-style:none;
+    background-color: rgb(236, 236, 236);
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+}

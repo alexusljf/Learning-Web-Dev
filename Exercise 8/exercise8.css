@@ -1,0 +1,98 @@
+p, text, button{
+    font-family: Arial;
+}
+.box8a{
+    display:block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border-style:solid;
+    border-color: grey;
+    border-width: 1px;
+    font-family: Arial;
+    padding-left: 2px;
+}
+.paragraph8b{
+    display:inline-block;
+    vertical-align: middle;
+    width: 225px;
+}
+.button8b{
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.googleLogo8c{
+    width: 200px;
+    display: block;
+    object-fit: contain;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+.searchBar8c{
+    width: 500px;
+    font-size: 16px;
+    border-radius: 24px;
+    border-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    display: block;
+    margin-bottom: 50px;
+}
+.nameBox8d{
+    width: 100px;
+}
+.emailBox8d{
+    display:block;
+    margin-top: 10px;
+    width: 212px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.signUp8d{
+    width:212px;
+    border-radius:8px;
+    border:none;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color:white;
+    background-color: rgb(52, 99, 226);
+    cursor: pointer;
+}
+.header8e{
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+.box8e{
+    font-size: 12px;
+    width: 212px;
+    display: block;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(236, 236, 236);
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.requestButton8e,.scheduleButton8e{
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    padding-left: 14px;
+    padding-right: 14px;    
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.requestButton8e{
+    color: white;
+    background-color: black;
+}
