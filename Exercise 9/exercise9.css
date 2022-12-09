@@ -99,7 +99,7 @@ button{
 .pic{
     width:200px;
     height:250px;
-    object-fit: fill;
+    object-fit: cover;
     object-position: center;
 }
 .name9f{

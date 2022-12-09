@@ -1,0 +1,44 @@
+<!-- using inline-blocks may cause allignment issues -->
+<!-- can put the style attribute in the <div> header, like <div style = "color: red;">-->
+<!-- number of values determine no.s of columns, the value itself determine the width of column -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 11</title>
+        <link rel = "stylesheet" href = "exercise10.css">
+    </head>
+    <body>
+        <h1> Lessons 11 Exercises! </h1>
+        <h2> CSS Grid </h2>
+        <div style = "display: grid;; grid-template-columns: 100px 100px; margin-bottom: 20px;">        
+            <div style = "background-color: rgb(243, 216, 63);"> test 1 </div>
+            <div style = "background-color: rgb(67, 179, 114); color: white;"> test 2</div>
+        </div>
+
+        <div style = "display: grid;; grid-template-columns: 100px 100px 200px;  margin-bottom: 20px;">          
+            <div style = "background-color: rgb(243, 216, 63);"> 100px </div>
+            <div style = "background-color: rgb(67, 179, 114); color: white;"> 100px </div>
+            <div style = "background-color: rgb(179, 99, 67); color: white;"> 200px </div>
+            <div style = "background-color: rgb(179, 99, 67); color: white;"> 4th div </div>
+            <p> the 4th div wraps around </p>
+        </div>
+
+        <div style = "display: grid;; grid-template-columns: 100px 1fr;">        
+            <div style = "background-color: rgb(243, 216, 63);"> test 1 </div>
+            <div style = "background-color: rgb(67, 179, 114); color: white;"> 1fr takes up the entire remaining space</div>
+        </div>  
+
+        <div style = "display: grid;; grid-template-columns: 1fr 1fr;">        
+            <div style = "background-color: rgb(146, 68, 5);"> if both are 1fr </div>
+            <div style = "background-color: rgb(34, 128, 73); color: white;"> then both take up same ratio of the entire remaining space</div>
+        </div>    
+        
+        <div style = "display: grid;; grid-template-columns: 2fr 1fr; column-gap:20px; row-gap: 20px;">        
+            <div style = "background-color: rgb(63, 147, 243);"> 2fr with column-gap:20px</div>
+            <div style = "background-color: rgb(137, 116, 211); color: white;"> 1fr </div>        
+            <div style = "background-color: rgb(243, 216, 63);"> with row-gap:20px </div>
+            <div style = "background-color: rgb(67, 179, 114); color: white;"> test</div>
+        </div>                  
+    </body>
+</html>
