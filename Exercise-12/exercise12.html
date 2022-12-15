@@ -1,0 +1,118 @@
+<!-- Flexbox is similar to CSS grids but more flexible-->
+<!-- block elements in flexbox act like inline-blocks, only take up as much space as they need to -->
+<!-- for grid: we set up the columns first then put the items inside -->
+<!-- flexbox will be vertically aligned -->
+<!-- the elements take their width with them when they move around, allows for flexible layouts. grid layouts are more rigid -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 12</title>
+        <link rel = "stylesheet" href = "exercise12.css">
+    </head>
+    <body>
+        <h1> Lessons 12 Exercises! </h1>
+        <h2> Flexbox </h2>
+        <div style = "display: flex; flex-direction: row; margin-bottom: 20px;">        
+            <div style = "background-color: lightblue;"> test 1 </div>
+            <div style = "background-color: lightpink; "> test 2</div>
+        </div>
+        <div style = "display: flex; flex-direction: row; margin-bottom: 20px;">        
+            <div style = "background-color: lightblue; width: 100px;"> width: 100px </div>
+            <div style = "background-color: lightpink; flex: 1;"> flex: 1 (unique style code to flexbox)</div>
+        </div>
+        <div style = "display: flex; flex-direction: row; margin-bottom: 20px;">        
+            <div style = "background-color: lightblue; width: 100px;"> width: 100px </div>
+            <div style = "background-color: lightpink;  flex: 1;"> flex: 1 (unique style code to flexbox)</div>
+            <div style = "background-color: lightblue; flex: 2;"> flex: 2 (unique style code to flexbox)</div>
+        </div>
+        <div style = "display: flex; flex-direction: row; margin-bottom: 20px;">
+            <div style = "background-color: lightpink;  flex: 1;"> flex: 1 (unique style code to flexbox)</div>        
+            <div style = "background-color: lightblue; width: 100px;"> width: 100px </div>
+            <div style = "background-color: lightpink; flex: 2;"> flex: 2 (unique style code to flexbox)</div>
+        </div>
+        <div style = "display: flex; flex-direction: row; margin-bottom: 20px; width: 150px; height: 50px; justify-content: center; border-width: 1px; border-style: solid; border-color: black;">        
+            <div style = "background-color: lightblue;"> test 1 </div>
+            <div style = "background-color: lightpink; "> test 2</div>
+        </div>
+        <div style = "display: flex; flex-direction: row; margin-bottom: 20px;">        
+            <div style = "background-color: lightblue; flex: 1; max-width: 1000px;"> max-width: 1000px </div>
+        </div>
+        
+        <div class = "flexDiv">
+            <div class = "div12a1"> 200px </div>
+            <div class = "div12a2"> 75px </div>
+        </div>
+
+        <div class = "flexDiv">
+            <div class = "div12b1"> item1 </div>
+            <div class = "div12b2"> item2 </div>
+            <div class = "div12b3"> item3 </div>
+        </div>
+
+        <div class = "flexDiv12c">
+            <div class = "div12c"> item1 </div>
+            <div class = "div12c"> item2 </div>
+            <div class = "div12c"> item3 </div>
+            <div class = "div12c"> item4 </div>
+        </div>
+
+        <div class = "flexDiv12d">
+            <div class = "div12c"> item1 </div>
+            <div class = "div12c"> item2 </div>
+        </div>
+
+        <div class = "containerDiv12e">
+            <!-- container div is just the box -->
+            <div class = "row12e">
+                <div> Home </div>
+                <div class = "notification"> 14 </div>
+            </div>
+            <div class = "row12e">
+                <div> Notifications </div>
+                <div class = "notification"> 3 </div>
+            </div>
+            <div class = "row12e">
+                <div> Messages </div>
+                <div class = "notification"> 5 </div>
+            </div>
+        </div>
+
+        <div>
+            <div class = "row12g">
+                <img src = "pic1.jpg" class = "profilePic">
+                <div class = "info">
+                    <p class = "name"> oliver </p>
+                    <p class = "description"> the cat </p>
+                    <p class = "popular"> Popular </p> 
+                </div>
+                <button class = "follow"> Follow </button>
+            </div>
+            <div class = "row12g">
+                <img src = "pic2.jpg" class = "profilePic">
+                <div class = "info">
+                    <p class = "name"> oliver2 </p>
+                    <p class = "description"> yes i am the man i am the man </p>
+                    <p class = "popular"> Popular </p> 
+                </div>
+                <button class = "follow"> Follow </button>
+            </div><div class = "row12g">
+                <img src = "pic3.jpg" class = "profilePic">
+                <div class = "info">
+                    <p class = "name"> oliver3 </p>
+                    <p class = "description"> i am not a cat </p>
+                    <p class = "popular"> Popular </p> 
+                </div>
+                <button class = "follow"> Follow </button>
+            </div>
+        </div>
+
+        <div>
+            <div class = "container12f">
+                <p style = "color: white; font-family: Arial;"> Home </p>
+                <input type = "text" placeholder = "Search" class = "searchbar12f">
+                <button class = "download12f"> Download </button>
+            </div>
+        </div>
+    </body>
+</html>

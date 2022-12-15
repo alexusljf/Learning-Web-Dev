@@ -1,0 +1,101 @@
+<!-- using inline-blocks may cause allignment issues -->
+<!-- can put the style attribute in the <div> header, like <div style = "color: red;">-->
+<!-- number of values determine no.s of columns, the value itself determine the width of column -->
+<!-- grids can have set columns, with their own sizes -->
+<!-- nested divs only take up space within the grid, not the whole block-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 11</title>
+        <link rel = "stylesheet" href = "exercise11.css">
+    </head>
+    <body>
+        <h1> Lessons 11 Exercises! </h1>
+        <h2> CSS Grid </h2>
+        <div style = "display: grid; grid-template-columns: 100px 100px; margin-bottom: 20px;">        
+            <div style = "background-color: lightblue;"> test 1 </div>
+            <div style = "background-color: lightpink; "> test 2</div>
+        </div>
+
+        <div style = "display: grid; grid-template-columns: 100px 100px 200px; margin-bottom: 20px;">          
+            <div style = "background-color: lightblue;"> 100px </div>
+            <div style = "background-color: lightpink; "> 100px </div>
+            <div style = "background-color: lightblue; "> 200px </div>
+            <div style = "background-color: lightblue; "> 4th div </div>
+            <p> the 4th div wraps around </p>
+        </div>
+
+        <div style = "display: grid; grid-template-columns: 100px 1fr; margin-bottom: 20px;">        
+            <div style = "background-color: lightblue;"> test 1 </div>
+            <div style = "background-color: lightpink; "> 1fr takes up the entire remaining space</div>
+        </div>  
+
+        <div style = "display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 20px;">        
+            <div style = "background-color: lightblue;"> if both are 1fr </div>
+            <div style = "background-color: lightpink; "> then both take up same ratio of the entire remaining space</div>
+        </div>    
+        
+        <div style = "display: grid; grid-template-columns: 2fr 1fr; column-gap:20px; row-gap: 20px; margin-bottom: 20px;">        
+            <div style = "background-color: lightblue;"> 2fr with column-gap:20px</div>
+            <div style = "background-color: lightpink; "> 1fr </div>        
+            <div style = "background-color: lightblue;"> with row-gap:20px </div>
+            <div style = "background-color: lightpink; "> test</div>
+        </div>  
+        
+        <div style = "display:grid; grid-template-columns: 200px 75px; margin-bottom: 20px;">
+            <div style = "background-color: lightblue;"> 200px </div>
+            <div style = "background-color: pink;"> 75px </div>
+        </div>
+
+        <div style = "display:grid; grid-template-columns: 50px 1fr 75px; margin-bottom: 20px;">
+            <div style = "background-color: lightblue;"> col1 (50px) </div>
+            <div style = "background-color: pink;"> col2 (remaining space) </div>
+            <div style = "background-color: lightblue;"> col3 (75px) </div>
+        </div>
+
+        <div style = "display:grid; grid-template-columns: 1fr 1fr 1fr 1fr; column-gap: 20px; row-gap: 10px; margin-bottom: 20px;">
+            <div style = "background-color: pink;"> col1 </div>
+            <div style = "background-color: pink;"> col2 </div>
+            <div style = "background-color: pink;"> col3 </div>
+            <div style = "background-color: pink;"> col4 </div>
+            <div style = "background-color: pink;"> col1 </div>
+            <div style = "background-color: pink;"> col2 </div>
+            <div style = "background-color: pink;"> col3 </div>
+            <div style = "background-color: pink;"> col4 </div>
+        </div>
+
+        <div style = "display: grid; grid-template-columns: 200px 200px 200px; column-gap: 30px;">
+            <div class = "facebook_profile">
+                <img src = "gus frin 1.webp" class = "pic">
+                <div class = "info">
+                    <p class = "name10d"> Gustavo Fring </p>
+                    <img src = "Saul_S4.jpg" class = "mutualPic">
+                    <p class = "mutualFriends10d"> 2 mutual friends </p>
+                    <button class = "addFriend10d"> Add Friend </button>
+                </div>
+            </div>
+    
+            <div class = "facebook_profile">
+                <img src = "gus frin 2.webp" class = "pic">
+                <div class = "info">
+                    <p class = "name10d"> Gustavo Fring 2 </p>
+                    <img src = "Saul_S4.jpg" class = "mutualPic">
+                    <p class = "mutualFriends10d"> 21 mutual friends </p>
+                    <button class = "addFriend10d"> Add Friend </button>
+                </div>
+            </div>
+    
+            <div class = "facebook_profile">
+                <img src = "gus frin 3.webp" class = "pic">
+                <div class = "info">
+                    <p class = "name10d"> Gustavo Fring 3 </p>
+                    <img src = "Saul_S4.jpg" class = "mutualPic">
+                    <p class = "mutualFriends10d"> 15 mutual friends </p>
+                    <button class = "addFriend10d"> Add Friend </button>
+                </div>
+            </div>    
+        </div>
+    
+    </body>
+</html>

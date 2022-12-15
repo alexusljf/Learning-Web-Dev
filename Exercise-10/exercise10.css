@@ -51,4 +51,5 @@ p{
     color: white;
     background: rgb(18, 97, 243);
     display: block;
+    cursor: pointer;
 }
