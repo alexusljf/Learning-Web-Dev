@@ -1,0 +1,158 @@
+div{
+    font-family: Arial;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.flexdiv13a1{
+    display: flex;
+    flex-direction: row;
+    background-color: lightpink;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.innerBox{
+    background-color: black;
+    color: white;
+}
+.div13a2{
+    background-color: lightblue;
+    width: 200px;
+}
+.div13b1{
+    background-color: lightpink;
+    width:100px;
+}
+.flexdiv13b2{
+    display:flex;
+    flex-direction: column;
+    background-color: lightblue;
+    width: 200px;
+}
+.innerFlexbox{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexbox13c{
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    height: 90px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.allInboxes13c{
+   color: gray;
+   font-size: 10px; 
+   margin-bottom: -15px;
+}
+.pic13c{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.innerFlexbox13c{
+    height: 50px;
+    display:flex;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+.topRow13c{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.name13c{
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: -8px;
+}
+.time13c{
+    color: gray;
+    font-size: 10px;
+    margin-bottom: -8px;
+}
+.biggest13c{
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: -6px;
+}
+.email13c{
+    color: gray;
+    font-size: 10px;
+}
+.flexbox13e{
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+.flexbox13f{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+}
+.username{
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.twitterHandle{
+    font-weight: normal;
+    color: rgb(90, 89, 89);
+}
+.tweetText{
+    margin-top: 0;
+    font-size: 16px;
+    width: 350px;
+}
+.bottomVideo{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    border-width: 1px;
+    overflow: hidden;
+}
+.left13f{
+    background-color: lightgray;
+    width: 165px;
+}
+.right13f{
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.youtube{
+    margin-bottom: 0;
+    margin-top: 12px;
+    color: rgb(90, 89, 89);
+}
+.video title{
+    line-height: 22px;
+    margin-top: 6px;
+}

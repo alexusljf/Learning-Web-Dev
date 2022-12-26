@@ -1,0 +1,102 @@
+<!-- If we put a div inside a flexbox, flexbox properties won't work on the inner div-->
+<!-- need to also make the inner div a flexbox -->
+<!-- flex-shrink: 0 makes it so the flex box wont shrink and will remain its current width when the window shrink-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 13</title>
+        <link rel = "stylesheet" href = "exercise13.css">
+    </head>
+    <body>
+        <h1> Lessons 13 Exercises! </h1>
+        <h2> Nested Flexbox </h2>
+
+        <div class = "flexbox">
+            <div class = "flexdiv13a1">
+                <div class = "innerBox">item1</div>
+            </div>
+            <div class = "div13a2"></div>
+        </div>
+
+        <div class = "flexbox">
+            <div class = "div13b1"></div>
+            <div class = "flexdiv13b2">
+                <div>row1</div>
+                <div class = "innerFlexbox">
+                    <div class = "innerBox"> row2</div>
+                    <div class = "innerBox"> row2</div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "flexbox13c">
+            <div class = "allInboxes13c"> ALL INBOXES </div>
+            <div class = "innerFlexbox13c">
+                <img src = "hqdefault.jpg" class = "pic13c">
+                <div class = "emailText">
+                    <div class = "topRow13c">
+                        <div class = "name13c"> Chewy Promotions </div>
+                        <div class = "time13c"> 4:58 PM </div>
+                    </div>
+                    <p class = "biggest13c"> Biggest sales of the year!</p>
+                    <p class = "email13c"> Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "flexbox13e">
+            <div class = "allInboxes13c"> ALL INBOXES </div>
+            <div class = "innerFlexbox13c">
+                <img src = "hqdefault.jpg" class = "pic13c">
+                <div class = "emailText">
+                    <div class = "topRow13c">
+                        <div class = "name13c"> Chewy Promotions </div>
+                        <div class = "time13c"> 4:58 PM </div>
+                    </div>
+                    <p class = "biggest13c"> Biggest sales of the year!</p>
+                    <p class = "email13c"> Hey there! We're writing to tell you about our...</p>
+                </div>
+            </div>
+            <div class = "innerFlexbox13c">
+                <img src = "images.jpeg" class = "pic13c">
+                <div class = "emailText">
+                    <div class = "topRow13c">
+                        <div class = "name13c"> Best Buy </div>
+                        <div class = "time13c"> 12:32 PM </div>
+                    </div>
+                    <p class = "biggest13c"> Your Best Buy eReceipt </p>
+                    <p class = "email13c"> Thank you for shopping at Best Buy, here is... </p>
+                </div>
+            </div>
+            <div class = "innerFlexbox13c">
+                <img src = "image.jpg" class = "pic13c">
+                <div class = "emailText">
+                    <div class = "topRow13c">
+                        <div class = "name13c"> Netflix </div>
+                        <div class = "time13c"> 9:00 AM </div>
+                    </div>
+                    <p class = "biggest13c"> Here's what's coming soon to Netflix</p>
+                    <p class = "email13c"> Brand new movies and shows, old favourites...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "flexbox13f">
+            <img src = "image.jpg" class = "pic13c">
+            <div class = "flexboxText13f">
+                <div class = "topTweet">
+                    <p class = "username"> supersimple.dev <span class = "twitterHandle"> @SuperSimpleDev </span></p>
+                    <p class = "tweetText"> What is backend web development? A complete overview. New video is up! </p>
+                </div>
+                <div class = "bottomVideo">
+                    <div class = "left13f"></div>
+                    <div class = "right13f">
+                        <p class = "youtube"> youtube.com </p>
+                        <p class = "video title"> Backend web development - a complete overview (2021) </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
