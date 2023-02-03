@@ -1,3 +1,9 @@
+.notes{
+    font-size: 12px;
+    border: solid;
+    width: 450px;
+    padding-left: 10px;
+}
 .gusFring7a{
     width: 200px;
     border-radius: 12px;
@@ -73,6 +79,10 @@
     cursor: pointer;
     display: block;
     margin-bottom: 20px;
+    transition: background-color, 0.15s;
+}
+.agreeAndJoin7f:hover{
+    background-color: rgb(66, 125, 214);
 }
 .gusFring7g{
     width: 50px;
@@ -105,4 +115,8 @@
     padding-bottom: 8px;
     cursor: pointer;
     vertical-align: middle;
+    transition: background-color;
+}
+.tweet7g:hover{
+    background-color: rgb(62, 142, 189);
 }

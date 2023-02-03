@@ -1,10 +1,3 @@
-<!-- Flexbox is similar to CSS grids but more flexible-->
-<!-- block elements in flexbox act like inline-blocks, only take up as much space as they need to -->
-<!-- for grid: we set up the columns first then put the items inside -->
-<!-- flexbox will be vertically aligned -->
-<!-- the elements take their width with them when they move around, allows for flexible layouts. grid layouts are more rigid -->
-<!-- by default, flex-direction is horizontal -->
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,13 +7,22 @@
     <body>
         <h1> Lessons 12 Exercises! </h1>
         <h2> Flexbox </h2>
+        <p class = "notes">
+            <span style = "color: red; text-decoration: underline"> Notes </span> <br>
+            Flexbox is similar to CSS grids but more flexible <br>
+            Block elements in flexbox act like inline-blocks, only take up as much space as they need to <br>
+            For grid: we set up the columns first then put the items inside <br>
+            Flexbox will be vertically aligned <br>
+            The elements take their width with them when they move around, allows for flexible layouts. grid layouts are more rigid <br>
+            By default, flex-direction is horizontal <br>
+        </p>
         <div style = "display: flex; flex-direction: row; margin-bottom: 20px;">        
             <div style = "background-color: lightblue;"> test 1 </div>
             <div style = "background-color: lightpink; "> test 2</div>
         </div>
         <div style = "display: flex; flex-direction: row; margin-bottom: 20px;">        
             <div style = "background-color: lightblue; width: 100px;"> width: 100px </div>
-            <div style = "background-color: lightpink; flex: 1;"> flex: 1 (unique style code to flexbox), goes all the way</div>
+            <div style = "background-color: lightpink; flex: 1;"> flex: 1 (unique style code to flexbox), goes all the way like 1fr in grid</div>
         </div>
         <div style = "display: flex; flex-direction: row; margin-bottom: 20px;">        
             <div style = "background-color: lightblue; width: 100px;"> width: 100px </div>
@@ -32,12 +34,13 @@
             <div style = "background-color: lightblue; width: 100px;"> width: 100px </div>
             <div style = "background-color: lightpink; flex: 2;"> flex: 2 </div>
         </div>
-        <div style = "display: flex; flex-direction: row; margin-bottom: 20px; width: 550px; height: 40px; justify-content: center; border-width: 1px; border-style: solid; border-color: black;">        
-            <div style = "background-color: lightblue;"> use justify-content to adjust the position of the boxes </div>
+        <div style = "display: flex; flex-direction: row; margin-bottom: 20px; width: 600px; height: 40px; justify-content: center; border-width: 1px; border-style: solid; border-color: black;">        
+            <div style = "background-color: lightblue;"> use justify-content to adjust the horizontal position of the boxes </div>
             <div style = "background-color: lightpink; "> test 2</div>
+            <p></p>
         </div>
         <div style = "display: flex; flex-direction: row; margin-bottom: 20px;">        
-            <div style = "background-color: lightblue; flex: 1; max-width: 1000px;"> max-width: 1000px, i think it will restrict the width, even if flex: 1 is used </div>
+            <div style = "background-color: lightblue; flex: 1; max-width: 350px;"> flex:1 , max-width: 350px, i think it will restrict the width, even if flex: 1 is used </div>
         </div>
         
         <div class = "flexDiv">
@@ -83,8 +86,8 @@
             <div class = "row12g">
                 <img src = "pic1.jpg" class = "profilePic">
                 <div class = "info">
-                    <p class = "name"> oliver </p>
-                    <p class = "description"> the cat </p>
+                    <p class = "name"> trevor </p>
+                    <p class = "description"> from cowchop </p>
                     <p class = "popular"> Popular </p> 
                 </div>
                 <button class = "follow"> Follow </button>
@@ -92,16 +95,16 @@
             <div class = "row12g">
                 <img src = "pic2.jpg" class = "profilePic">
                 <div class = "info">
-                    <p class = "name"> oliver2 </p>
-                    <p class = "description"> yes i am the man i am the man </p>
+                    <p class = "name"> black kid holding cross meme </p>
+                    <p class = "description"> yes </p>
                     <p class = "popular"> Popular </p> 
                 </div>
                 <button class = "follow"> Follow </button>
             </div><div class = "row12g">
                 <img src = "pic3.jpg" class = "profilePic">
                 <div class = "info">
-                    <p class = "name"> oliver3 </p>
-                    <p class = "description"> i am not a cat </p>
+                    <p class = "name"> lil nas x </p>
+                    <p class = "description"> i like this pic </p>
                     <p class = "popular"> Popular </p> 
                 </div>
                 <button class = "follow"> Follow </button>

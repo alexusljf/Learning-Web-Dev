@@ -1,3 +1,9 @@
+.notes{
+    font-size: 12px;
+    border: solid;
+    width: 600px;
+    padding-left: 10px;
+}
 .subscribe-button {
     background-color: rgb(197, 0, 0);
     color: white;

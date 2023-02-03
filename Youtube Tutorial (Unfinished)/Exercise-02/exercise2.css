@@ -1,3 +1,9 @@
+.notes{
+    font-size: 12px;
+    border: solid;
+    width: 300px;
+    padding-left: 10px;
+}
 .uber_button {
     background-color: black;
     color: white;

@@ -1,3 +1,9 @@
+.notes{
+    font-size: 12px;
+    border: solid;
+    width: 230px;
+    padding-left: 10px;
+}
 div,p,button{
     font-family: Arial;
 }

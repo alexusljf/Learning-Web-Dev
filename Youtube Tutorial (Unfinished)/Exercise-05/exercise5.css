@@ -1,3 +1,9 @@
+.notes{
+    font-size: 12px;
+    border: solid;
+    width: 650px;
+    padding-left: 10px;
+}
 p{
     margin-bottom: 10px;
     margin-top: 0px;

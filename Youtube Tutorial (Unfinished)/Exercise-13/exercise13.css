@@ -1,3 +1,9 @@
+.notes{
+    font-size: 12px;
+    border: solid;
+    width: 630px;
+    padding-left: 10px;
+}
 div{
     font-family: Arial;
 }

@@ -1,0 +1,155 @@
+p,div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.notes{
+    border-style: solid;
+    
+}
+.div14a{
+    background-color: black;
+    color: white;
+    position: fixed;
+    right: 65px;
+    bottom: 5px;
+}
+.div14b{
+    background-color: green;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 60px;
+}
+.overlay14d{
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    right:0;
+    top:0;
+    left:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal14d{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+}
+.modalTitle14d{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.modalText14d{
+    margin-bottom: 10px;
+}
+.header14e{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.profilePic14e{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+.name14e{
+    width: 300px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.addFriend{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(47, 101, 202);
+    color: white;
+    border-radius: 5px;
+    border:none;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.message{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(198, 202, 206);
+    color: black;
+    border-radius: 5px;
+    border:none;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar14f{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:0;
+    display:flex;
+    flex-direction: row;
+}
+.leftHalf14f{
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.profilePic14f{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.rightHalf14f{
+    background-color: rgb(55, 55, 55);
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 150px;
+}
+.header14f{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.info14f{
+    color: white;
+    font-size: 14px;    
+}
+.new14f{
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+    cursor:pointer;
+}
+.channel{
+    color: rgb(121, 121, 121);
+    margin-bottom: 16px;
+    cursor:pointer;
+}

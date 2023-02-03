@@ -1,3 +1,10 @@
+.notes{
+    font-size: 12px;
+    border: solid;
+    width: 650px;
+    padding-left: 10px;
+    text-align: left;
+}
 p{
     font-family: Montserrat;
     text-align: center;

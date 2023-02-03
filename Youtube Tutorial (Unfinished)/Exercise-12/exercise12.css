@@ -1,3 +1,9 @@
+.notes{
+    font-size: 12px;
+    border: solid;
+    width: 700px;
+    padding-left: 10px;
+}
 .flexDiv{
     display: flex;
     flex-direction: row;

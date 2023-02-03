@@ -1,3 +1,9 @@
+.notes{
+    font-size: 12px;
+    border: solid;
+    width: 350px;
+    padding-left: 10px;
+}
 p{
     font-family: Arial;
 }
@@ -13,12 +19,13 @@ p{
     height:250px;
     object-fit: cover;
     object-position: center;
+    margin-bottom: -10px;
 }
 .name10d{
     padding-left: 10px;
     padding-right: 10px;
     font-weight: 700;
-    margin-bottom:6px;
+    margin-bottom: 6px;
 }
 .mutualPic{
     margin-left: 10px;
