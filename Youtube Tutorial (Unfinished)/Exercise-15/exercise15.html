@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title> Exercise 15 </title>
+    <link rel = "stylesheet" href = "exercise15.css">
+    <link rel = "icon" href = "../Exercise-13/hqdefault.jpg">
+</head>
+<body style="height: 3000px; padding-top: 60px; padding-left: 80px; padding-right: 80px">
+    <h1> Exercise 15! </h1>
+    <h2> Position Absolute and Relative </h2>
+    <p style = "border-style: solid; ">
+        <span style = "color: red; text-decoration: underline;"> Notes </span> <br>
+        Position Absolute also takes Left Top Right Bottom values <br>
+        Position fixed elements are placed on the browser window, Absolute are placed on the page <br>
+        Generally, elements written below will appear in front of elements written above <br>
+        Using z-index: can set which element appear in front, higher val = more front, default = 0 <br>
+        Set a very high z-index value to make it the most front, like the top bar has z-index 100 <br>
+        Placing a Position Absolute inside a Position Fixed will place it relative on the fixed element, not the page <br>
+        Position Relative still displays as normal, but if put an Absolute inside it will be Absolute on the Relative instead of the page <br>
+    </p>
+    <div style = "background-color: red; position: absolute; color: white; top: 0px; right: 0px; z-index:1;"> z-index: 0 </div>
+    <div style = "background-color: black; color: white; position: fixed; top: 0px; left: 0px; right: 0px; height: 60px; z-index: 100;"> position fixed will be fixed to the page, stretched because left and right 0px</div>
+    <div style = "background-color: green; color: black; position: fixed; bottom: 0; left: 0; top: 60px; width: 60px; z-index: 100;"> 
+        side bar
+        <div style = "background-color: red; position: absolute; color: white; right: 0; top: 0;"> X </div>
+    </div>
+    <div style = "background-color: red; position: absolute; color: white; top: 60px; right: 0px;"> Absolute </div>
+    <div style = "background-color: lightblue; height: 200px; width: 200px; position: static;"> positon: static is the default</div>
+    <div style = "background-color: pink; height: 200px; width: 200px; position: relative;"> 
+        positon: relative 
+        <div style = "background-color: black; position: absolute; color: white; right: 0; bottom: 10px; padding-left: 5px; padding-right: 5px; border-radius: 10px;"> on the Relative </div>
+    </div>
+    
+</body>
