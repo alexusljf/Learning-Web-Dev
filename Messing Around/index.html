@@ -5,6 +5,25 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+        alert("Hello World!");
+        document.write("<h1>Time to learn JavaScript</h1>");
+        var name = "Alexus";
+        var date = Date();
+        console.log("This website is made by " + name);
+        console.log(date);
+        document.write(document.baseURI+"<br>");
+    </script>
+
+    <h1 id = "innerHTMLTest"> Tester </h1>
+
+    <script>
+        var namePrompt = prompt("What is your name?");
+        document.write(namePrompt);
+        document.getElementById('innerHTMLTest').innerHTML = "Hello World";
+        console.log("Message goes to the browser console");
+    </script>
+
     <div style = "display: table;">
         <div style = "display: table-cell; padding: 10px;">
             <h1> image gif </h1>
