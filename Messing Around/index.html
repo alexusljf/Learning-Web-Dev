@@ -19,13 +19,13 @@
 
     <script>
         var namePrompt = prompt("What is your name?");
-        document.write(namePrompt);
-        document.getElementById('innerHTMLTest').innerHTML = "Hello World";
+        document.write("This website was made by: " + namePrompt);
+        document.getElementById('innerHTMLTest').innerHTML = "Hello World (Original Text in this div was replaced.)";
         console.log("Message goes to the browser console");
     </script>
 
     <div style = "display: table;">
-        <div style = "display: table-cell; padding: 10px;">
+        <div style = "display: table-cell; padding: 10px; ">
             <h1> image gif </h1>
             <img src = "luffy-laugh.gif" style = "width: 500px; border-radius:  300px;" alt = "luffy laughing gif">
             <hr>
