@@ -1,0 +1,136 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(233, 220, 204, 0.884);
+}
+.homeButton, .middleButton{ 
+    cursor: pointer;
+    font-size: 20px;
+    background-color: black;
+    color: rgb(218, 194, 165);
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s;
+}
+.homeButton:hover, .middleButton:hover{
+    background-color: rgba(80, 64, 43, 0.884);
+    border-color: rgba(80, 64, 43, 0.884);
+    color: white;
+    
+}
+.topBar{
+    background-color: rgb(218, 194, 165);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    display:flex;
+    flex-direction: row;
+    height: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    
+}
+.middleButton{
+    margin-left:10px; 
+    margin-right: 10px;
+}
+.leftSection{
+    display:flex;
+    flex: 1;
+    align-items:center;
+    justify-content: start;
+}
+.middleSection{
+    display:flex;
+    flex: 1;
+    align-items:center;
+    justify-content: center;
+}
+.rightSection{
+    display:flex;
+    flex: 1;
+    align-items:center;
+    justify-content: end;
+}
+.mainPage{
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.myPic{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border-color: black;
+    border-style: solid;
+    object-fit: fill;
+    object-position: center;
+    background-color: rgb(218, 194, 165);
+}
+.pictureContainer{
+    flex: 1;
+    padding-left: 75px;
+}
+.bioContainer{
+    flex: 3;
+    font-family: 'Montserrat', sans-serif;
+}
+.projectPage, .experiencePage{
+    margin-top: 50vh;
+    margin-bottom: 50vh;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.projectContainer{
+    display:grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+.projectDiv{
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 1.6;
+}
+.experienceContainer{
+    align-items: center;
+}
+.experienceDiv{
+    text-align: center;
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 1.6;
+}
+.workLogo{
+    width: 15%;
+    border-color: black;
+    border-style: solid;
+    object-fit: fill;
+    object-position: center;
+    background-color: white;
+}
+footer{
+    padding-top: 2px;
+    margin-bottom: 16px;
+    margin-top: 55px; 
+    text-align: center; 
+    bottom: 0;
+    right:0;
+    left:0;
+    background-color: rgb(218, 194, 165);
+    box-shadow: 0 50vh 0 50vh rgb(218, 194, 165);
+}

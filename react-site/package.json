@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
+  "name": "react-site",
   "version": "0.1.0",
-  "homepage": "https://alexusljf.github.io",
+  "homepage": "https://alexusljf.github.io/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -14,6 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.11.1",
+    "react-router-dom": "^6.11.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -44,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "react-router-dom": "^6.11.1"
+    "gh-pages": "^5.0.0"
   }
 }
