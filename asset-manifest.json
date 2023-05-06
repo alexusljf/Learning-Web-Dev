@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Trying%20React/static/css/main.c30cb8ac.css",
-    "main.js": "/Trying%20React/static/js/main.afcfbba7.js",
-    "static/js/787.28cb0dcd.chunk.js": "/Trying%20React/static/js/787.28cb0dcd.chunk.js",
-    "static/media/my pic transparent bg.png": "/Trying%20React/static/media/my pic transparent bg.33033d7b625c7b2592e1.png",
-    "static/media/Alexus Lim Resume.pdf": "/Trying%20React/static/media/Alexus Lim Resume.c92ea66446b4b7596955.pdf",
-    "static/media/Singapore_Police_Force_crest.png": "/Trying%20React/static/media/Singapore_Police_Force_crest.e104d0902b8627ffdb0e.png",
-    "static/media/sinopec logo.png": "/Trying%20React/static/media/sinopec logo.508802383a3a2f7a68e4.png",
-    "index.html": "/Trying%20React/index.html",
-    "main.c30cb8ac.css.map": "/Trying%20React/static/css/main.c30cb8ac.css.map",
-    "main.afcfbba7.js.map": "/Trying%20React/static/js/main.afcfbba7.js.map",
-    "787.28cb0dcd.chunk.js.map": "/Trying%20React/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.c30cb8ac.css",
+    "main.js": "/static/js/main.b59b3819.js",
+    "static/js/787.7ec122fa.chunk.js": "/static/js/787.7ec122fa.chunk.js",
+    "static/media/my pic transparent bg.png": "/static/media/my pic transparent bg.33033d7b625c7b2592e1.png",
+    "static/media/Alexus Lim Resume.pdf": "/static/media/Alexus Lim Resume.c92ea66446b4b7596955.pdf",
+    "static/media/Singapore_Police_Force_crest.png": "/static/media/Singapore_Police_Force_crest.e104d0902b8627ffdb0e.png",
+    "static/media/sinopec logo.png": "/static/media/sinopec logo.508802383a3a2f7a68e4.png",
+    "index.html": "/index.html",
+    "main.c30cb8ac.css.map": "/static/css/main.c30cb8ac.css.map",
+    "main.b59b3819.js.map": "/static/js/main.b59b3819.js.map",
+    "787.7ec122fa.chunk.js.map": "/static/js/787.7ec122fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c30cb8ac.css",
-    "static/js/main.afcfbba7.js"
+    "static/js/main.b59b3819.js"
   ]
 }
